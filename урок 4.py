@@ -1,0 +1,1 @@
+"Задание 1"num1 = int(input('первое число'))num2 = int(input('Вторая цифра'))if num1 > num2:    print('num1')elif num1 < num2:    print('num2')else:    print('равно')"Задание 2"name = input('Введите имя')if len(name) <= 2:    print("Имя слишком короткое")elif len(name) >= 50:    print("Слишком длиное имя")else:    print("Привет,", name)
